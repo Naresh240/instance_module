@@ -13,3 +13,7 @@ variable "keyname" {
 variable "tag_value" {
     type = string
 }
+
+variable "security_group_names" {
+    type = list(string)
+}
